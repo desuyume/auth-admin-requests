@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 30vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+form button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+form h2 {
+  margin-bottom: 2.5rem;
+}
+
+.main p {
+  font-size: 1.5rem;
+}
+
+.main hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.admin-bttn, .main-bttn {
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.requests-bttn, .main-bttn-requests {
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+}
+
+.logout-bttn {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users {
+  width: 40vw;
+}
+
+.users-list {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.users .user {
+  width: 100%;
+  min-height: 7rem;
+}
+
+.user .user-control {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-nav {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-nav button {
+  width: 3rem;
+  height: 100%;
+}
+.user-nav button+button {
+  margin-left: 0.5rem;
+}
+.users .loader-container {
+  height: 35rem;
+}
